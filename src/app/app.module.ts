@@ -15,6 +15,9 @@ import { ViewPlacesAddedComponent } from './view-places-added/view-places-added.
 import { SignupComponent } from './signup/signup.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FooterComponent } from './footer/footer.component';
+import { AdminNavBarComponent } from './admin-nav-bar/admin-nav-bar.component';
+import { AddPlaces1Component} from './add-places1/add-places1.component';
+import { ViewPlaces1AddedComponent } from './view-places1-added/view-places1-added.component';
 
 
 @NgModule({
@@ -28,6 +31,9 @@ import { FooterComponent } from './footer/footer.component';
     SignupComponent,
     DashboardComponent,
     FooterComponent,
+    AdminNavBarComponent,
+    AddPlaces1Component,
+    ViewPlaces1AddedComponent
     
   ],
   imports: [
